@@ -17,7 +17,10 @@
  *
  * @package WordPress
  */
-
+define('WP_MEMORY_LIMIT', '512M');
+define('WP_POST_MAX_SIZE', '128M');
+define('WP_UPLOAD_MAX_FILESIZE', '128M');
+define('WP_MAX_EXECUSION_TIME', 30000);
 define('FORCE_SSL_ADMIN', true);
 // in some setups HTTP_X_FORWARDED_PROTO might contain
 // a comma-separated list e.g. http,https
